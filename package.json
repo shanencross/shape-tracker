@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/shanencross/shape-tracker/issues"
   },
-  "homepage": "https://github.com/shanencross/shape-tracker#readme"
+  "homepage": "https://github.com/shanencross/shape-tracker#readme",
+  "devDependencies": {
+    "webpack": "4.39.3",
+    "webpack-cli": "3.3.8"
+  }
 }

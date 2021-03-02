@@ -1,0 +1,20 @@
+{
+  "name": "shape-tracker",
+  "version": "1.0.0",
+  "description": "A learning project for learning about Webpack.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shanencross/shape-tracker.git"
+  },
+  "keywords": [],
+  "author": "Shanen Cross",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shanencross/shape-tracker/issues"
+  },
+  "homepage": "https://github.com/shanencross/shape-tracker#readme"
+}

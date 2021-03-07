@@ -1,3 +1,10 @@
+import "./css/styles.css";
+import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './css/styles.css';
+import $ from "jquery";
+import Triangle from "./triangle.js";
+
 $(document).ready(function() {
 	$("#triangle-checker-form").submit(function(event) {
 		event.preventDefault();
@@ -7,5 +14,5 @@ $(document).ready(function() {
 		const triangle = new Triangle(length1, length2, length3);
 		const response = triangle.checkType();
 		$("#response").append("<p>" + response + "</p>");
-	})
-})
+	});
+});
